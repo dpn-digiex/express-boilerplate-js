@@ -1,0 +1,38 @@
+{
+  "name": "create-express-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dphonguyn-digiex/create-express-server.git"
+  },
+  "author": "dpn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dphonguyn-digiex/create-express-server/issues"
+  },
+  "homepage": "https://github.com/dphonguyn-digiex/create-express-server#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "handlebars": "^4.7.7",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongodb": "^5.0.1",
+    "mongoose": "^6.9.1",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.1",
+    "nodemon": "^2.0.20",
+    "path": "^0.12.7",
+    "redis": "^4.6.4"
+  }
+}
